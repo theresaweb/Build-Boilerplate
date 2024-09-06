@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "files": ["assets/css/**/*.s+(a|c)ss"],
+  "ignoreFiles": ["assets/css/frontend/reset.scss"],
+  "rules": {
+    "rule-empty-line-before": ["always", { "except": ["after-rule","inside-block"] }],
+    "color-hex-length": "long",
+    "color-no-invalid-hex": true,
+    "no-descending-specificity": null,
+    "media-feature-range-notation": "prefix"
+  }
+}

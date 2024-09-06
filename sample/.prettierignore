@@ -1,0 +1,7 @@
+# Ignore artifacts:
+bin
+dist
+node_modules
+vendor
+stable/
+release/
